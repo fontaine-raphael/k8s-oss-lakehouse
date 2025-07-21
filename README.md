@@ -129,4 +129,4 @@ This project is licensed under the [MIT License](./LICENSE).
 ## ✍️ Author
 
 **Raphael Fontaine**  
-[GitHub Profile](https://github.com/your-user)
+[GitHub Profile](https://github.com/fontaine-raphael)
