@@ -1,0 +1,9 @@
+# Default Minikube cluster configuration (for reference only)
+driver: docker
+cpus: 4
+memory: 8192
+disk-size: "20g"
+kubernetes-version: v1.30.0
+addons:
+  - dashboard
+  - ingress
