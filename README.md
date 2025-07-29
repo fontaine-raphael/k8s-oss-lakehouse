@@ -81,6 +81,8 @@ chore: configure lint hooks for commits
 - Minikube
 - Helm
 - Python (for workload simulation)
+- yq
+- mc (for MinIO)
 - macOS, Linux, or WSL2-enabled Windows
 
 > 📦 Optional: Use [Homebrew](https://brew.sh/) to install CLI tools
