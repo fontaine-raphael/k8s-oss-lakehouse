@@ -10,7 +10,7 @@ helm install "$RELEASE_NAME" minio-operator/operator \
   --create-namespace
 
 echo "⏳ Waiting for MinIO Operator pods to be ready..."
-kubectl rollout status deployment/minio-operator -n "$NAMESPACE"
+kubectl rollout status deployment/"$RELEASE_NAME" -n "$NAMESPACE"
 
 echo "✅ MinIO Operator installed successfully!"
 kubectl get pods -n "$NAMESPACE"
